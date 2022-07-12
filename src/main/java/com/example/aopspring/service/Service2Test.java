@@ -8,24 +8,24 @@ import java.util.logging.Logger;
 
 @RequiredArgsConstructor
 @Service
-public class ServiceTest {
+public class Service2Test {
 
     private final static Logger logger =
             Logger.getLogger(ServiceTest.class.getName());
 
-    @StringAnnotation("zalupa")
+    @StringAnnotation("zalupa2")
     public String print(String name) {
-        logger.info("Log msg is print");
+        logger.info("Second log msg is print");
         return name;
     }
 
     public String print1(String name) {
-        logger.info("Log msg is 1");
+        logger.info("Second log msg is 1");
         return name;
     }
 
     public String print2(String name) {
-        logger.info("Log msg is 2");
+        logger.info("Second log msg is 2");
         return name;
     }
 }
