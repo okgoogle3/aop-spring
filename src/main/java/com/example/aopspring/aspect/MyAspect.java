@@ -1,20 +1,12 @@
 package com.example.aopspring.aspect;
 
-import com.example.aopspring.service.ServiceTest;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.annotation.Target;
 import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.stream.Collectors;
-
 
 @Aspect
 @Component
